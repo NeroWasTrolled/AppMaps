@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppExercicioMapa.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Exercicio de Mapa" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+            <Image Margin="0, 50, 0, 0" Source="xamarin_essentials"/>
+        </StackLayout>
+        
+        
+        <Label Text="País"/>
+        <Entry x:Name="txtPais"/>
+        <Label Text="UF"/>
+        <Entry x:Name="txtUF"/>
+        <Label Text="Local"/>
+        <Entry x:Name="txtLocal"/>
+        <Label Text="Cidade"/>
+        <Entry x:Name="txtCidade"/>
+        <Button x:Name="btnLocation" Text="VER MAIS" Clicked="btnLocation_Clicked"/>
+        <Label x:Name="lblPais"/>
+        <Label x:Name="lblUF"/>
+        <Label x:Name="lblLocal"/>
+        <Label x:Name="lblCidade"/>
+    </StackLayout>
+
+</ContentPage>
